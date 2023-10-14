@@ -234,7 +234,7 @@
                     toastr.warning(" {{ Session::get('message') }} ")
                 break;
                 case 'error':
-                    toastr.warning(" {{ Session::get('message') }} ")
+                    toastr.error(" {{ Session::get('message') }} ")
                 break;
             }
         @endif
